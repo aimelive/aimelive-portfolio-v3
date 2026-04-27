@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta name="robots" content="noindex, follow" />
+
+    <title>404 - Page not found · Aime Ndayambaje</title>
+    <meta
+      name="description"
+      content="The page you're looking for doesn't exist. Head back to aimelive.com or browse the work."
+    />
+
+    <link rel="icon" href="/images/icons/favicon.ico" sizes="any" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/icons/apple-touch-icon.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <style>
+      .nf {
+        position: relative;
+        min-height: 100vh;
+        padding: 130px var(--pad) 100px;
+        overflow: hidden;
+        background:
+          radial-gradient(120% 80% at 50% 0%, #14182380 0%, transparent 70%),
+          var(--ink-1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+      .nf-inner {
+        position: relative;
+        z-index: 2;
+        max-width: 720px;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .nf-code {
+        font-family: var(--f-display);
+        font-size: clamp(120px, 22vw, 320px);
+        line-height: 0.9;
+        letter-spacing: -0.045em;
+        margin: 0 0 16px;
+        font-weight: 400;
+      }
+      .nf-code em {
+        font-style: italic;
+        color: var(--blue);
+      }
+      .nf-title {
+        font-family: var(--f-display);
+        font-size: clamp(28px, 4vw, 48px);
+        line-height: 1.1;
+        letter-spacing: -0.025em;
+        margin: 0 0 18px;
+        font-weight: 400;
+      }
+      .nf-sub {
+        font-size: clamp(15px, 1.2vw, 17px);
+        line-height: 1.55;
+        color: var(--ink-6);
+        max-width: 50ch;
+        margin: 0 auto 36px;
+      }
+      .nf-cta {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+      }
+      .nf-meta {
+        position: absolute;
+        bottom: 32px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: var(--f-mono);
+        font-size: 11px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--ink-5);
+        z-index: 2;
+      }
+      .nf-meta .blue {
+        color: var(--blue);
+      }
+    </style>
+  </head>
+  <body id="top">
+    <header class="top is-scrolled" id="top-bar">
+      <a href="/" class="top-mark">aimelive<i>.</i></a>
+      <nav class="top-nav">
+        <a href="/#about">About</a>
+        <a href="/#services">Services</a>
+        <a href="/#work">Work</a>
+        <a href="/#stack">Stack</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+      <div class="top-cta">
+        <span class="top-status"><span class="dot"></span>Available</span>
+        <a class="btn btn--blue" href="/#work"
+          >View Work <span class="arrow">→</span></a
+        >
+      </div>
+    </header>
+
+    <main class="nf">
+      <div class="hero-orb" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="nf-inner">
+        <p class="eyebrow" style="justify-content: center; margin-bottom: 18px">
+          <span class="pip"></span>Error · 404
+        </p>
+        <h1 class="nf-code display">4<em>0</em>4</h1>
+        <h2 class="nf-title">This page got lost in production.</h2>
+        <p class="nf-sub">
+          The URL you followed doesn't point anywhere on aimelive.com. It might
+          have been moved, mistyped, or never existed. Either way - let's get
+          you somewhere useful.
+        </p>
+        <div class="nf-cta">
+          <a class="btn btn--blue" href="/"
+            >Back to home <span class="arrow">→</span></a
+          >
+          <a class="btn btn--ghost" href="/#work"
+            >Browse selected work <span class="arrow">↗</span></a
+          >
+        </div>
+      </div>
+
+      <p class="nf-meta">
+        <span class="blue">404</span> · Page not found · aimelive.com
+      </p>
+    </main>
+  </body>
+</html>

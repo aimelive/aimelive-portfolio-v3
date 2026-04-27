@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node (if tooling is added later)
+node_modules/
+.npm
+.pnpm-store/
+.yarn/
+
+# Build / output (if a build step is added later)
+dist/
+build/
+out/
+.next/
+.nuxt/
+.parcel-cache/
+.cache/
+
+# Deploy platforms
+.vercel
+.netlify
+
+# Coverage / tests
+coverage/
+*.lcov
+
+# Temporary / scratch
+*.tmp
+.tmp/
+tmp/
+
+# Claude Code session data
+.claude/
